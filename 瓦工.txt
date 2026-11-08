@@ -1,1 +1,0 @@
-vless=wow.keji6666.dpdns.org:57766, method=none, password=742a19fb-80e7-4682-b405-aa7b1501600c, obfs=over-tls, tls-verification=false, reality-base64-pubkey=dGC3o5YaCbCpbcSAGreRrkXOqepMc13EVi-7tWEgOj0, reality-hex-shortid=b3be20c03118, vless-flow=xtls-rprx-vision, tls-host=tesla.com, fast-open=false, udp-relay=true, tag=🇺🇸软路由
