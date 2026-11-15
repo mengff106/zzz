@@ -1,0 +1,1074 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+- name: Bandwagon‐LA−‌Direct
+  type: vless
+  server: 104.194.94.82
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: MluZ4flJZcKXfYIKPyscW901kd1w-GdG9VN3m2XqTCc
+    short-id: "05172f9030ea3307"
+  tls: true
+  uuid: e759c16d-030b-4ae8-9488-e5b6920c147f
+- name: 静态IP‐短效
+  type: socks5
+  server: 103.49.62.194
+  port: 1909
+  username: 8880bc42ba27
+  password: ukuf3ddyzdx5xtc1nr3c
+- name: DMIT−CDN #2
+  type: vless
+  server: 104.16.0.1
+  port: 443
+  network: ws
+  client-fingerprint: chrome
+  tls: true
+  servername: sub.veltralab.com
+  uuid: a7bd05d5-1d2a-4c29-b348-806350ef9642
+  ws-opts:
+    path: /65e7888c529b4ac7
+    headers:
+      Host: sub.veltralab.com
+- name: DMIT-HK
+  type: vless
+  server: 103.135.251.96
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.microsoft.com
+  reality-opts:
+    public-key: rujS57DL9d6J1sshnW4vdsR9PPj-P8Ci8yH4wNG1JTo
+    short-id: "fcb7cb5906954b87"
+  tls: true
+  uuid: 4cbf6ccf-de17-4d29-b0c9-72d7802e8d38
+- name: hysteria2‑102.208.107.194
+  type: hysteria2
+  server: 102.208.107.194
+  port: 443
+  password: c3d32ae11b8dbc04092cad1699c6a41efefaba6da841e567
+  sni: 102.208.107.194
+  skip-cert-verify: true
+- name: Bandwagon-Hy2‐VIRC⁠S
+  type: hysteria2
+  server: 104.194.94.82
+  port: 8443
+  obfs-password: bwgo154_a99c1e6fed7ab1a46733d7a0
+  obfs: salamander
+  skip-cert-verify: true
+  password: bwg154_eec609449b4c9b64b05a11d2
+  sni: www.microsoft.com
+- name: DMIT−‌US
+  type: vless
+  server: 154.17.22.186
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.microsoft.com
+  reality-opts:
+    public-key: 769F3jAnqXVvGJWASOELDXYkvHjVNSOyxacQCZHoARM
+    short-id: "a9bb50e885ff2185"
+  tls: true
+  uuid: aacef32c-4134-41c5-9bb3-67fef2780d05
+- name: Bandwagon‑LA‑Hy2
+  type: hysteria2
+  server: 104.194.94.82
+  port: 443
+  obfs-password: XHoi7GpK8qAcahRdzCbQpxeuyYzhB3m
+  obfs: salamander
+  skip-cert-verify: true
+  password: UHvBBBulIjdd5W76CLQeLFOItSdtin2
+  sni: www.microsoft.com
+- name: RackNerd‑LA−Hy2
+  type: hysteria2
+  server: 107.173.237.19
+  port: 443
+  obfs-password: ZoJ7bflZCO8hcRQfntSZCDFWQJ8u3cuO
+  obfs: salamander
+  skip-cert-verify: true
+  password: 69s05eEp1OnLEVPzvlsNrhVoA9sYYtLA
+  sni: www.microsoft.com
+- name: hysteria2‐104.194.94.82
+  type: hysteria2
+  server: 104.194.94.82
+  port: 8445
+  password: bfe22b3c42cb3080a137421e
+  sni: 104.194.94.82
+  skip-cert-verify: true
+- name: RackNerd−LA-Direct
+  type: vless
+  server: 107.173.237.19
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: 6Yt8gAVp4cZdVkgQycEn2eCzg0VSW29ISgRIeZKkhTQ
+    short-id: "2005599cc070946e"
+  tls: true
+  uuid: 9888da94-17f7-4113-9272-fcc68ec8458d
+- name: DMIT‑CDN
+  type: vless
+  server: 104.16.0.1
+  port: 443
+  network: ws
+  client-fingerprint: chrome
+  tls: true
+  servername: sub.veltralab.com
+  uuid: 58c65744-3d8d-482d-a0a1-cefa76295ac8
+  ws-opts:
+    path: /65e7888c529b4ac7
+    headers:
+      Host: sub.veltralab.com
+- name: DMIT−LA−Reality B
+  type: vless
+  server: 154.26.178.174
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.sony.com
+  reality-opts:
+    public-key: 2vlPh2Qe7qB24YCCNJOEQKvkFYkblW9ohUNBOaVSC2E
+    short-id: "f317"
+  tls: true
+  uuid: def2d06c-b684-4871-ac74-fa961adf0240
+- name: 试用-DMIT-SS
+  type: ss
+  server: 179.253.228.183
+  port: 31888
+  cipher: aes-256-gcm
+  password: 3a1e7073085192a4f0d619ea17fab5109e8c0c686749d1a2
+- name: DMIT-Vless-洛杉矶
+  type: vless
+  server: 154.26.177.18
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: EHQs5zhV1GjmCqdoxCpj9FY_5edyGH6az0I-Uccz1AM
+    short-id: "e86773c49570"
+  tls: true
+  uuid: 1ef62cea-5f2f-4acf-9add-0a9a2bfbc078
+- name: 'DMIT-US #2'
+  type: vless
+  server: 154.17.22.186
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.microsoft.com
+  reality-opts:
+    public-key: 769F3jAnqXVvGJWASOELDXYkvHjVNSOyxacQCZHoARM
+    short-id: "a9bb50e885ff2185"
+  tls: true
+  uuid: 41095c28-6e59-49f0-87bc-0c457f48d869
+- name: DMIT-US-HY2
+  type: hysteria2
+  server: 154.17.22.186
+  port: 23456
+  password: 01d54a7cc74b189185afe4671a811756
+  sni: bing.com
+  skip-cert-verify: true
+- name: DMIT-Hysteria2
+  type: hysteria2
+  server: 179.253.228.183
+  port: 36712
+  password: 173667d090bd82efcd44ffc49d5e8b64
+  sni: 179.253.228.183
+  skip-cert-verify: true
+- name: DMIT-VLESS-Reality
+  type: vless
+  server: 179.253.228.183
+  port: 8443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: iBCE3J7fEJ9RC4F-jN2_IZiJUSdHQ8c5bMdH0VrxzBw
+    short-id: "5945da8ccc1a162e"
+  tls: true
+  uuid: 6f7d5fe8-f171-43e9-a3da-e87db4d184c0
+- name: hysteria2-169.40.⁠139.102
+  type: hysteria2
+  server: 169.40.139.102
+  port: 443
+  password: 383e1ba2a0ffe6ec35791668d71def39
+  sni: 169.40.139.102
+  skip-cert-verify: true
+- name: DMIT‍-SS
+  type: ss
+  server: 179.253.228.183
+  port: 443
+  cipher: aes-256-gcm
+  password: fdZiJhEyvQCQ1eHpaGUIJR
+- name: VPS_Proxy
+  type: ss
+  server: 154.21.86.69
+  port: 46748
+  cipher: aes-256-gcm
+  password: 2mhu6AwWH7XdAbHg0BLV4eaNsUxGB27h
+- name: DMIT-LA-Reality
+  type: vless
+  server: 154.26.178.174
+  port: 52715
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.sony.com
+  reality-opts:
+    public-key: 2vlPh2Qe7qB24YCCNJOEQKvkFYkblW9ohUNBOaVSC2E
+    short-id: "f317"
+  tls: true
+  uuid: 579a27ae-59e2-4a61-ac33-40dd65f8158e
+- name: 'DMIT-US #2​0'
+  type: vless
+  server: 154.17.22.186
+  port: 9443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.microsoft.com
+  reality-opts:
+    public-key: 769F3jAnqXVvGJWASOELDXYkvHjVNSOyxacQCZHoARM
+    short-id: "a9bb50e885ff2185"
+  tls: true
+  uuid: eef02b62-936e-4d80-aa64-4de2867a2683
+- name: Clash-Meta-Reality-talentzz‍d
+  type: vless
+  server: 179.253.235.15
+  port: 8443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: apple.com
+  reality-opts:
+    public-key: DyIvDR24f-gB5b6tSJJX9hABcERMFgxWuHmCnuTlJDw
+    short-id: "cd3b42d6"
+  tls: true
+  uuid: ddb776de-5bb5-49fb-80b4-c0aa5b05aadb
+- name: DMIT-Claude
+  type: ss
+  server: 179.253.239.70
+  port: 443
+  cipher: aes-128-gcm
+  password: 6ff5f0923c2cad8dc5d04c2778d5fcf6
+- name: dm​it-lax-reality
+  type: vless
+  server: 179.253.234.249
+  port: 10443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: Er1jw8cNIMxvFjQNnl79YnMpB4vuEthLPKuMSgCuXmo
+    short-id: "107588019040d865"
+  tls: true
+  uuid: d133a07f-7ac9-45a6-aa0e-bfb6ae581181
+- name: DMIT-LAX-VLESS-Reality-443
+  type: vless
+  server: 179.253.232.206
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.microsoft.com
+  reality-opts:
+    public-key: OXAIZ8NjDuXt98wk7ZBvgzJUvz2oODlX9gbgwOWQ2zQ
+    short-id: "f26e317b"
+  tls: true
+  uuid: f0846474-b587-472f-9762-dd4744b620c9
+- name: DMIT-LAX-Hysteria2-443
+  type: hysteria2
+  server: 179.253.232.206
+  port: 443
+  password: mUYcSiY8tdtIO6BL1NotQGypVu26i4kStYE2DaGWZP0=
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: dmit-lax-hy2-36712
+  type: hysteria2
+  server: 179.253.234.249
+  port: 36712
+  password: 8f2b1f371a641d97a6e2dd0075b86a27
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: A机-VMe‌ss
+  type: vmess
+  server: 179.253.246.191
+  port: 20086
+  alterId: 0
+  uuid: 1d1e7b48-ec7f-4177-a9c6-857f733a3ee5
+  cipher: auto
+- name: dmit-lax-hy2
+  type: hysteria2
+  server: 179.253.234.249
+  port: 443
+  password: 8f2b1f371a641d97a6e2dd0075b86a27
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: DMIT-LAX-SS2022
+  type: ss
+  server: 179.253.232.206
+  port: 8443
+  cipher: 2022-blake3-aes-256-gcm
+  password: ABlxO+hIvMZBd8lO32cJ38LL1OqC6ylkK5P4ud6OSPc=
+- name: s2005lg
+  type: hysteria2
+  server: 179.253.246.9
+  port: 443
+  password: 4a7534e71093a475a4db5f0e6ce5c350
+  sni: 179.253.246.9
+  skip-cert-verify: true
+- name: DMIT-LAX-Direct
+  type: vless
+  server: 179.253.249.207
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: OBqmTA8tMA_BiTfbkDIT0FSqnkcXoCN05ku7jgc_dWE
+    short-id: "f1e2af03645ce4ae"
+  tls: true
+  uuid: 2a9fd7b6-1d15-41e9-bcda-b59cfb43bceb
+- name: DMIT-LAX-VLESS-Reality-9443
+  type: vless
+  server: 179.253.232.206
+  port: 9443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.microsoft.com
+  reality-opts:
+    public-key: bALWm4Qqylk__v9ERp2ulV5JrKO27DMXnz8Wpd60nhE
+    short-id: "7c532b0c"
+  tls: true
+  uuid: ff0ddb8e-ef99-4362-a8a7-80a71b1639fa
+- name: 新 VPS - VLESS Reality
+  type: vless
+  server: 179.255.125.239
+  port: 8443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: EDCLQhKMmBRLlzAAFUq8et2OTvgM0zASH6McEkXyEGk
+    short-id: "78eac92800283103"
+  tls: true
+  uuid: e3e823e9-a8c8-4e0c-8729-1011bbbb8267
+- name: DMIT-TW-Residential
+  type: vless
+  server: 179.253.249.207
+  port: 9443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: OBqmTA8tMA_BiTfbkDIT0FSqnkcXoCN05ku7jgc_dWE
+    short-id: "f1e2af03645ce4ae"
+  tls: true
+  uuid: d545e4e0-e5b7-4ca6-b0f6-5429fdfd1870
+- name: Light03-vps
+  type: vless
+  server: 179.255.114.72
+  port: 17266
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.mongodb.com
+  reality-opts:
+    public-key: bNwA70tPIGHvtvc1EcyOnUCQPt6uCBaLS6xAi9aJvV0
+    short-id: "6ba85179e30d4fc2"
+  tls: true
+  uuid: 5da3f905-7009-499e-a3be-ae0628a956be
+- name: DMIT-AAITR-Residential
+  type: vless
+  server: 179.253.249.207
+  port: 10443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: OBqmTA8tMA_BiTfbkDIT0FSqnkcXoCN05ku7jgc_dWE
+    short-id: "f1e2af03645ce4ae"
+  tls: true
+  uuid: 9559ddd4-64e7-4f84-a744-aea6ca58d834
+- name: DMIT-HY2
+  type: hysteria2
+  server: 179.255.156.209
+  port: 443
+  password: SVn1beDfRLKJWN79XWeSNq5f
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+- name: 新 VPS - Trojan TLS
+  type: trojan
+  server: 179.255.125.239
+  port: 443
+  password: aFRGI3pRi5gZ5or8oaCeDXFvsQVRNG0VW6HhXwdWTf8=
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: VMess-WS
+# build=o6ehvnzp
+  type: vmess
+  server: 179.255.100.25
+  port: 8080
+  cipher: auto
+  alterId: 0
+  uuid: b3e96171-2037-46c1-aacb-0cd090b3c8a1
+  network: ws
+  ws-opts:
+    path: /zqyE91qv
+- name: LA-Clash-SS
+  type: ss
+  server: 179.255.118.58
+  port: 24443
+  cipher: chacha20-ietf-poly1305
+  password: rHgs1GVYpl9B+L5qa1zIoi9528ee0Bq6hLlryi+2lVc=
+- name: DMIT-US-Residential
+  type: vless
+  server: 179.253.249.207
+  port: 8443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: OBqmTA8tMA_BiTfbkDIT0FSqnkcXoCN05ku7jgc_dWE
+    short-id: "f1e2af03645ce4ae"
+  tls: true
+  uuid: 7351cde7-e759-4569-bb72-e529f32d9c9a
+- name: DMIT-TW-Residential B
+  type: vless
+  server: 179.253.249.207
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: OBqmTA8tMA_BiTfbkDIT0FSqnkcXoCN05ku7jgc_dWE
+    short-id: "f1e2af03645ce4ae"
+  tls: true
+  uuid: 97b7051e-6868-4e02-bc4c-39d761522353
+- name: US DMIT⁠-LOS
+  type: vless
+  server: 179.255.144.149
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: 6RUZXXOBdedouWIStMQ4gdn-xXX-2WoMJ4MuuxDjJGM
+    short-id: "88251b63"
+  tls: true
+  uuid: 2a480512-4d13-4935-997c-acb9048e335c
+- name: xiaozan-chain
+  type: vless
+  server: 179.255.101.34
+  port: 8443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: N9t9OKLNVAl7Z4ClCkpik-IULUW3B-N8wQEOWawohEw
+    short-id: "b63ce774c946757f"
+  tls: true
+  uuid: d255e2f7-45f4-44c7-8dc5-77af1ac3eb01
+- name: JP-Vless-Vultr-4p4ha0c9
+  type: vless
+  server: 198.13.32.112
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.icloud.com
+  reality-opts:
+    public-key: huoB4tpssiq0eKJUEUYC6kMZ-2lDuS29Y4573rKN5Aw
+    short-id: "43e107dc48cc"
+  tls: true
+  uuid: 53a80455-7ed0-4e32-a4e6-4178bc36c3e3
+- name: 美国-ip1-45.62.161‍.235
+  type: socks5
+  server: 45.62.161.235
+  port: 12324
+  username: 14a60a21b7afb
+  password: e71d33090c
+- name: DM‍IT-Tokyo-VLESS B
+  type: vless
+  server: 191.222.209.151
+  port: 9443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.bing.com
+  reality-opts:
+    public-key: VPqaa-eRA-qu0Dpl-vxo8io9FoxaXB27ZRoIapvyDwc
+    short-id: "878ef486cecff097"
+  tls: true
+  uuid: 8015dfd9-d873-4653-bc76-d570272fb462
+- name: DMIT-Reality
+  type: vless
+  server: 179.255.156.209
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: gateway.icloud.com
+  reality-opts:
+    public-key: 6DAH-lGOBi7Y_FZLZBaJkSv1brEmwDbAIiEp2d9YIH4
+    short-id: "0f17f8ba80f8c1bd"
+  tls: true
+  uuid: ca72ba2b-8022-437d-a8bd-78fb0f71d1fb
+- name: DMIT-Tokyo-HY2
+  type: hysteria2
+  server: 191.222.209.151
+  port: 8443
+  password: 9W2dUnKnWBQbHzGNEnhOmDLF
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: Chuhao-IPv6
+  type: hysteria2
+  server: '2605'
+  port: 443
+  password: Chumima168000*
+  sni: www.ucla.edu
+  skip-cert-verify: true
+- name: HostDare-US
+  type: vless
+  server: 45.12.88.118
+  port: 31702
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.oracle.com
+  reality-opts:
+    public-key: qO6qKW9Tm_epjg6NSh_eKEBomfEh3RQ_Weju5aTgljs
+    short-id: "bafe4e16"
+  tls: true
+  uuid: 44503519-ad79-4f5f-a1c6-b9a2afa5f6e3
+- name: UK-Newcastle-Hy2
+  type: hysteria2
+  server: 212.134.174.73
+  port: 443
+  obfs-password: qgDSFE0lKKpYYwp7lXbcvdFCj7iom5Jz
+  obfs: salamander
+  skip-cert-verify: true
+  password: PIMEO4AyddspC8v4tnb6hVKiejrHSoNb
+  sni: www.microsoft.com
+- name: 美国-i‍p2-45.62.161.208
+  type: socks5
+  server: 45.62.161.208
+  port: 12324
+  username: 14a60a21b7afb
+  password: e71d33090c
+- name: 静态IP-SOC⁠KS5
+  type: socks5
+  server: 198.65.21.151
+  port: 443
+  username: nQwkauNhjqsU
+  password: F9ce8E1B2x
+- name: US- Lisa-家宽-ycshuag0
+  type: vless
+  server: 38.71.118.218
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: p3CNa4sPXAHq1OiZB9uJhvm9MTua9iE9LgieDXRBxkA
+    short-id: "af"
+  tls: true
+  uuid: 4b42cf12-3476-4836-ae49-9a17c1ea25f5
+- name: DMIT-Tok‌yo-VLESS
+  type: vless
+  server: 191.222.209.151
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.bing.com
+  reality-opts:
+    public-key: VPqaa-eRA-qu0Dpl-vxo8io9FoxaXB27ZRoIapvyDwc
+    short-id: "878ef486cecff097"
+  tls: true
+  uuid: 5c28f50f-8059-4d99-bbf5-7463b954f2f3
+- name: 美国-ip3-45.62.161.31
+  type: socks5
+  server: 45.62.161.31
+  port: 12324
+  username: 14a60a21b7afb
+  password: e71d33090c
+- name: 🇺🇸 Vee LA v1
+  type: vless
+  server: 64.186.235.118
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  tls: true
+  servername: www.amazon.com
+  uuid: f50dd23d-6dd6-4ed6-a4a3-858a58ad9cfa
+- name: Windo⁠wsA
+  type: hysteria2
+  server: 64.186.250.39
+  port: 443
+  password: Chumima168000*
+  sni: www.ucla.edu
+  skip-cert-verify: true
+- name: DMIT-GIA-to-VIRCS-Chain
+  type: vless
+  server: 69.63.211.10
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: Rn-bDN7T_HlnGenVrkL_e89XZQdn7paV8du8hMAOmUU
+    short-id: "dead5678"
+  tls: true
+  uuid: fc0cf0a0-23f5-4bec-8cf3-2fc1ff9a5237
+- name: DMIT-​GIA-Direct
+  type: vless
+  server: 69.63.211.10
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: Rn-bDN7T_HlnGenVrkL_e89XZQdn7paV8du8hMAOmUU
+    short-id: "dead5678"
+  tls: true
+  uuid: 778061b6-a59e-4fa9-9a61-5dba9e2d3a58
+- name: DMIT-GIA-H‍y2
+  type: hysteria2
+  server: 69.63.211.10
+  port: 443
+  obfs-password: rEsTJOEa30raMAhRmcvAtY5GdPqZoBrz
+  obfs: salamander
+  skip-cert-verify: true
+  password: E4n4WsN6NE3vMoqCgUSJYQwe4KBH2MVx
+  sni: www.microsoft.com
+- name: DMIT-GIA-to-IPFoxy-SOCKS
+  type: vless
+  server: 69.63.211.10
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: Rn-bDN7T_HlnGenVrkL_e89XZQdn7paV8du8hMAOmUU
+    short-id: "dead5678"
+  tls: true
+  uuid: c41fc922-98a0-4dad-bb37-2a1372814ab9
+- name: DMIT-GIA-Hy2-VIRCS
+  type: hysteria2
+  server: 69.63.211.10
+  port: 8443
+  obfs-password: d9ab94HHPqAL9OVKeNG6268zqWpHmKL
+  obfs: salamander
+  skip-cert-verify: true
+  password: oCElgMWrGWY4jMVaPksWIxbXAKtuTggB
+  sni: www.microsoft.com
+- name: hysteria2-69⁠.63.211.10
+  type: hysteria2
+  server: 69.63.211.10
+  port: 8445
+  password: 3b8ec3e537124af1a3de305b
+  sni: 69.63.211.10
+  skip-cert-verify: true
+- name: 'DMIT-Reality #2'
+  type: vless
+  server: 69.63.218.185
+  port: 443
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.microsoft.com
+  reality-opts:
+    public-key: eqDeE6jAStY1DPxISdc1IELJLo-W5g93CrcKgXQJylM
+    short-id: "c24089eeb56e95d8"
+  tls: true
+  uuid: 9e9ae6e6-ba2e-4627-a43e-822c9764b064
+- name: VLE⁠SS-WS-443
+  type: vless
+  server: clash.ddm4.cn
+  port: 443
+  servername: clash.ddm4.cn
+  network: ws
+  uuid: d006ef4a-d235-4691-bf05-abbe0d14055c
+  tls: true
+  ws-opts:
+    path: /vless
+    headers:
+      Host: clash.ddm4.cn
+proxy-groups:
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - ♻️ 自动选择
+  - 🇺🇸 美国节点
+  - 🏠 家宽|住宅节点
+  - 🚀 手动切换
+  - DIRECT
+- name: 🚀 手动切换
+  type: select
+  proxies:
+  - Bandwagon‐LA−‌Direct
+  - 静态IP‐短效
+  - DMIT−CDN #2
+  - DMIT-HK
+  - hysteria2‑102.208.107.194
+  - Bandwagon-Hy2‐VIRC⁠S
+  - DMIT−‌US
+  - Bandwagon‑LA‑Hy2
+  - RackNerd‑LA−Hy2
+  - hysteria2‐104.194.94.82
+  - RackNerd−LA-Direct
+  - DMIT‑CDN
+  - DMIT−LA−Reality B
+  - 试用-DMIT-SS
+  - DMIT-Vless-洛杉矶
+  - 'DMIT-US #2'
+  - DMIT-US-HY2
+  - DMIT-Hysteria2
+  - DMIT-VLESS-Reality
+  - hysteria2-169.40.⁠139.102
+  - DMIT‍-SS
+  - VPS_Proxy
+  - DMIT-LA-Reality
+  - 'DMIT-US #2​0'
+  - Clash-Meta-Reality-talentzz‍d
+  - DMIT-Claude
+  - dm​it-lax-reality
+  - DMIT-LAX-VLESS-Reality-443
+  - DMIT-LAX-Hysteria2-443
+  - dmit-lax-hy2-36712
+  - A机-VMe‌ss
+  - dmit-lax-hy2
+  - DMIT-LAX-SS2022
+  - s2005lg
+  - DMIT-LAX-Direct
+  - DMIT-LAX-VLESS-Reality-9443
+  - 新 VPS - VLESS Reality
+  - DMIT-TW-Residential
+  - Light03-vps
+  - DMIT-AAITR-Residential
+  - DMIT-HY2
+  - 新 VPS - Trojan TLS
+  - VMess-WS
+  - LA-Clash-SS
+  - DMIT-US-Residential
+  - DMIT-TW-Residential B
+  - US DMIT⁠-LOS
+  - xiaozan-chain
+  - JP-Vless-Vultr-4p4ha0c9
+  - 美国-ip1-45.62.161‍.235
+  - DM‍IT-Tokyo-VLESS B
+  - DMIT-Reality
+  - DMIT-Tokyo-HY2
+  - Chuhao-IPv6
+  - HostDare-US
+  - UK-Newcastle-Hy2
+  - 美国-i‍p2-45.62.161.208
+  - 静态IP-SOC⁠KS5
+  - US- Lisa-家宽-ycshuag0
+  - DMIT-Tok‌yo-VLESS
+  - 美国-ip3-45.62.161.31
+  - 🇺🇸 Vee LA v1
+  - Windo⁠wsA
+  - DMIT-GIA-to-VIRCS-Chain
+  - DMIT-​GIA-Direct
+  - DMIT-GIA-H‍y2
+  - DMIT-GIA-to-IPFoxy-SOCKS
+  - DMIT-GIA-Hy2-VIRCS
+  - hysteria2-69⁠.63.211.10
+  - 'DMIT-Reality #2'
+  - VLE⁠SS-WS-443
+- name: ♻️ 自动选择
+  type: url-test
+  interval: 300
+  tolerance: 50
+  proxies:
+  - Bandwagon‐LA−‌Direct
+  - 静态IP‐短效
+  - DMIT−CDN #2
+  - DMIT-HK
+  - hysteria2‑102.208.107.194
+  - Bandwagon-Hy2‐VIRC⁠S
+  - DMIT−‌US
+  - Bandwagon‑LA‑Hy2
+  - RackNerd‑LA−Hy2
+  - hysteria2‐104.194.94.82
+  - RackNerd−LA-Direct
+  - DMIT‑CDN
+  - DMIT−LA−Reality B
+  - 试用-DMIT-SS
+  - DMIT-Vless-洛杉矶
+  - 'DMIT-US #2'
+  - DMIT-US-HY2
+  - DMIT-Hysteria2
+  - DMIT-VLESS-Reality
+  - hysteria2-169.40.⁠139.102
+  - DMIT‍-SS
+  - VPS_Proxy
+  - DMIT-LA-Reality
+  - 'DMIT-US #2​0'
+  - Clash-Meta-Reality-talentzz‍d
+  - DMIT-Claude
+  - dm​it-lax-reality
+  - DMIT-LAX-VLESS-Reality-443
+  - DMIT-LAX-Hysteria2-443
+  - dmit-lax-hy2-36712
+  - A机-VMe‌ss
+  - dmit-lax-hy2
+  - DMIT-LAX-SS2022
+  - s2005lg
+  - DMIT-LAX-Direct
+  - DMIT-LAX-VLESS-Reality-9443
+  - 新 VPS - VLESS Reality
+  - DMIT-TW-Residential
+  - Light03-vps
+  - DMIT-AAITR-Residential
+  - DMIT-HY2
+  - 新 VPS - Trojan TLS
+  - VMess-WS
+  - LA-Clash-SS
+  - DMIT-US-Residential
+  - DMIT-TW-Residential B
+  - US DMIT⁠-LOS
+  - xiaozan-chain
+  - JP-Vless-Vultr-4p4ha0c9
+  - 美国-ip1-45.62.161‍.235
+  - DM‍IT-Tokyo-VLESS B
+  - DMIT-Reality
+  - DMIT-Tokyo-HY2
+  - Chuhao-IPv6
+  - HostDare-US
+  - UK-Newcastle-Hy2
+  - 美国-i‍p2-45.62.161.208
+  - 静态IP-SOC⁠KS5
+  - US- Lisa-家宽-ycshuag0
+  - DMIT-Tok‌yo-VLESS
+  - 美国-ip3-45.62.161.31
+  - 🇺🇸 Vee LA v1
+  - Windo⁠wsA
+  - DMIT-GIA-to-VIRCS-Chain
+  - DMIT-​GIA-Direct
+  - DMIT-GIA-H‍y2
+  - DMIT-GIA-to-IPFoxy-SOCKS
+  - DMIT-GIA-Hy2-VIRCS
+  - hysteria2-69⁠.63.211.10
+  - 'DMIT-Reality #2'
+  - VLE⁠SS-WS-443
+  url: https://www.gstatic.com/generate_204
+- name: 📲 电报消息
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🇺🇸 美国节点
+  - 🚀 手动切换
+  - DIRECT
+- name: 💬 Ai平台
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🇺🇸 美国节点
+  - 🚀 手动切换
+  - DIRECT
+- name: 📹 油管视频
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🇺🇸 美国节点
+  - 🚀 手动切换
+  - DIRECT
+- name: 🎥 奈飞视频
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🇺🇸 美国节点
+  - 🚀 手动切换
+  - DIRECT
+- name: 📺 巴哈姆特
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - 🚀 手动切换
+  - DIRECT
+- name: 📺 哔哩哔哩
+  type: select
+  proxies:
+  - 🎯 全球直连
+- name: 🌍 国外媒体
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  - 🇺🇸 美国节点
+  - 🚀 手动切换
+  - DIRECT
+- name: 🌏 国内媒体
+  type: select
+  proxies:
+  - DIRECT
+  - 🚀 手动切换
+- name: 📢 谷歌FCM
+  type: select
+  proxies:
+  - DIRECT
+  - 🚀 节点选择
+  - 🇺🇸 美国节点
+  - 🚀 手动切换
+- name: Ⓜ️ 微软云盘
+  type: select
+  proxies:
+  - DIRECT
+  - 🚀 节点选择
+  - 🇺🇸 美国节点
+  - 🚀 手动切换
+- name: Ⓜ️ 微软服务
+  type: select
+  proxies:
+  - DIRECT
+  - 🚀 节点选择
+  - 🇺🇸 美国节点
+  - 🚀 手动切换
+- name: 🍎 苹果服务
+  type: select
+  proxies:
+  - DIRECT
+  - 🚀 节点选择
+  - 🇺🇸 美国节点
+  - 🚀 手动切换
+- name: 🎯 全球直连
+  type: select
+  proxies:
+  - DIRECT
+  - 🚀 节点选择
+  - ♻️ 自动选择
+- name: 🛑 广告拦截
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: 🍃 应用净化
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - DIRECT
+  - ♻️ 自动选择
+  - 🇺🇸 美国节点
+  - 🚀 手动切换
+- name: 🇺🇸 美国节点
+  type: url-test
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 美国-ip1-45.62.161‍.235
+  - 美国-i‍p2-45.62.161.208
+  - 美国-ip3-45.62.161.31
+  - 🇺🇸 Vee LA v1
+  url: https://www.gstatic.com/generate_204
+- name: 🏠 家宽|住宅节点
+  type: select
+  proxies:
+  - DMIT-TW-Residential
+  - DMIT-AAITR-Residential
+  - DMIT-US-Residential
+  - DMIT-TW-Residential B
+  - US- Lisa-家宽-ycshuag0
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
+    path: ./ruleset/reject.yaml
+    interval: 86400
+  icloud:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+  apple:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt
+    path: ./ruleset/apple.yaml
+    interval: 86400
+  google:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt
+    path: ./ruleset/google.yaml
+    interval: 86400
+  proxy:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+  direct:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
+    path: ./ruleset/direct.yaml
+    interval: 86400
+  private:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
+    path: ./ruleset/private.yaml
+    interval: 86400
+  gfw:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+  applications:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt
+    path: ./ruleset/applications.yaml
+    interval: 86400
+rules:
+- RULE-SET,applications,DIRECT
+- DOMAIN,clash.razord.top,DIRECT
+- DOMAIN,yacd.haishan.me,DIRECT
+- RULE-SET,private,DIRECT
+- RULE-SET,reject,🛑 广告拦截
+- RULE-SET,icloud,🍎 苹果服务
+- RULE-SET,apple,🍎 苹果服务
+- RULE-SET,google,🚀 节点选择
+- RULE-SET,proxy,🚀 节点选择
+- RULE-SET,direct,🎯 全球直连
+- RULE-SET,lancidr,🎯 全球直连
+- RULE-SET,cncidr,🎯 全球直连
+- RULE-SET,telegramcidr,📲 电报消息
+- GEOIP,LAN,🎯 全球直连
+- GEOIP,CN,🎯 全球直连
+- MATCH,🐟 漏网之鱼
