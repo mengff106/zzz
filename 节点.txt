@@ -1,0 +1,115 @@
+trojan=c-cm.jiasu.one:19972, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=6track.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-美国02-T
+trojan=b-cm.jiasu.one:19973, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=6track.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-美国02-T
+trojan=a-cm.jiasu.one:19972, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=6track.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-美国02-T
+shadowsocks=d-ali.200913.xyz:11055, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-美国02-S
+shadowsocks=beibei.200913.xyz:11055, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-美国02-S
+trojan=a-cm.jiasu.one:14525, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us03.200913.xyz, fast-open=false, udp-relay=true, tag=A移动-美国03-T
+trojan=b-cm.jiasu.one:14526, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us03.200913.xyz, fast-open=false, udp-relay=true, tag=B电信-美国03-T
+trojan=c-cm.jiasu.one:14525, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us03.200913.xyz, fast-open=false, udp-relay=true, tag=C联通-美国03-T
+shadowsocks=d-ali.200913.xyz:11066, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-美国03-S
+shadowsocks=beibei.200913.xyz:11066, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-美国03-S
+trojan=a-cm.jiasu.one:59087, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us04.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-美国04-T
+trojan=b-cm.jiasu.one:59088, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us04.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-美国04-T
+trojan=c-cm.jiasu.one:59087, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us04.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-美国04-T
+shadowsocks=d-ali.200913.xyz:11056, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-美国04-S
+shadowsocks=beibei.200913.xyz:11056, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-美国04-S
+trojan=a-cm.jiasu.one:49939, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us05.200913.xyz, fast-open=false, udp-relay=true, tag=A移动-美国05-T
+trojan=b-cm.jiasu.one:49940, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us05.200913.xyz, fast-open=false, udp-relay=true, tag=B电信-美国05-T
+trojan=c-cm.jiasu.one:49939, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us05.200913.xyz, fast-open=false, udp-relay=true, tag=C联通-美国05-T
+shadowsocks=d-ali.200913.xyz:11053, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-美国05-S
+shadowsocks=beibei.200913.xyz:11053, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-美国05-S
+trojan=a-cm.jiasu.one:26919, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=twby.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-台湾01-T
+trojan=b-cm.jiasu.one:26920, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=twby.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-台湾01-T
+trojan=c-cm.jiasu.one:26919, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=twby.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-台湾01-T
+shadowsocks=d-ali.200913.xyz:11054, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-台湾01-S
+shadowsocks=beibei.200913.xyz:11054, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-台湾01-S
+trojan=a-cm.jiasu.one:12888, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jpdj-vir1.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-日本01-T
+trojan=b-cm.jiasu.one:12889, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jpdj-vir1.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-日本01-T
+trojan=c-cm.jiasu.one:12888, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jpdj-vir1.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-日本01-T
+shadowsocks=d-ali.200913.xyz:11067, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-日本01-S
+shadowsocks=beibei.200913.xyz:11067, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-日本01-S
+trojan=a-cm.jiasu.one:47478, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jpdj-vir2.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-日本02-T
+trojan=b-cm.jiasu.one:47479, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jpdj-vir2.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-日本02-T
+trojan=c-cm.jiasu.one:47478, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jpdj-vir2.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-日本02-T
+shadowsocks=d-ali.200913.xyz:11058, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-日本02-S
+shadowsocks=beibei.200913.xyz:11058, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-日本02-S
+trojan=a-cm.jiasu.one:17926, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jpdj-by750.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-日本03-T
+trojan=b-cm.jiasu.one:17927, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jpdj-by750.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-日本03-T
+trojan=c-cm.jiasu.one:17926, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jpdj-by750.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-日本03-T
+shadowsocks=d-ali.200913.xyz:11078, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-日本03-S
+shadowsocks=beibei.200913.xyz:11078, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-日本03-S
+trojan=a-cm.jiasu.one:47072, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jp04.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-日本04-T
+trojan=b-cm.jiasu.one:47073, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jp04.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-日本04-T
+trojan=c-cm.jiasu.one:47072, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jp04.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-日本04-T
+shadowsocks=d-ali.200913.xyz:11064, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-日本04-S
+shadowsocks=beibei.200913.xyz:11064, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-日本04-S
+trojan=a-cm.jiasu.one:37414, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jp05.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-日本05-T
+trojan=b-cm.jiasu.one:37415, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jp05.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-日本05-T
+trojan=c-cm.jiasu.one:37414, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jp05.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-日本05-T
+shadowsocks=d-ali.200913.xyz:11059, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-日本05-S
+shadowsocks=beibei.200913.xyz:11059, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-日本05-S
+trojan=a-cm.jiasu.one:54892, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jp06.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-日本06-T
+trojan=b-cm.jiasu.one:54892, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jp06.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-日本06-T
+trojan=c-cm.jiasu.one:54892, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=jp06.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-日本06-T
+shadowsocks=d-ali.200913.xyz:11071, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-日本06-S
+shadowsocks=beibei.200913.xyz:11071, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-日本06-S
+trojan=a-cm.jiasu.one:16985, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk01.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-香港01-T
+trojan=b-cm.jiasu.one:16986, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk01.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-香港01-T
+trojan=c-cm.jiasu.one:16985, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk01.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-香港01-T
+shadowsocks=d-ali.200913.xyz:11061, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-香港01-S
+shadowsocks=beibei.200913.xyz:11061, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-香港01-S
+trojan=a-cm.jiasu.one:32770, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hkhy.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-香港02-T
+trojan=b-cm.jiasu.one:32771, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hkhy.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-香港02-T
+trojan=c-cm.jiasu.one:32770, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hkhy.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-香港02-T
+shadowsocks=d-ali.200913.xyz:11057, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-香港02-S
+shadowsocks=beibei.200913.xyz:11057, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-香港02-S
+trojan=a-cm.jiasu.one:54735, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk04.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-香港04-T
+trojan=b-cm.jiasu.one:54736, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk04.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-香港04-T
+trojan=c-cm.jiasu.one:54735, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk04.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-香港04-T
+shadowsocks=d-ali.200913.xyz:11052, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-香港04-S
+shadowsocks=beibei.200913.xyz:11052, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-香港04-S
+trojan=a-cm.jiasu.one:52023, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk05.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-香港05-T
+trojan=b-cm.jiasu.one:52024, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk05.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-香港05-T
+trojan=c-cm.jiasu.one:52023, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk05.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-香港05-T
+shadowsocks=d-ali.200913.xyz:11072, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-香港05-S
+shadowsocks=beibei.200913.xyz:11072, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-香港05-S
+trojan=a-cm.jiasu.one:18534, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us3tcone.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-美国01-T
+trojan=b-cm.jiasu.one:18535, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us3tcone.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-美国01-T
+trojan=c-cm.jiasu.one:18534, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us3tcone.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-美国01-T
+shadowsocks=d-ali.200913.xyz:11065, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-美国01-S
+shadowsocks=beibei.200913.xyz:11065, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-美国01-S
+trojan=a-cm.jiasu.one:16978, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us06.200913.xyz, fast-open=false, udp-relay=true, tag=A移动-美国06-T
+trojan=b-cm.jiasu.one:16977, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us06.200913.xyz, fast-open=false, udp-relay=true, tag=B电信-美国06-T
+trojan=c-cm.jiasu.one:16978, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=us06.200913.xyz, fast-open=false, udp-relay=true, tag=C联通-美国06-T
+shadowsocks=d-ali.200913.xyz:11077, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-美国06-S
+shadowsocks=beibei.200913.xyz:11077, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-美国06-S
+trojan=a-cm.jiasu.one:35073, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=mo02.200913.xyz, fast-open=false, udp-relay=true, tag=A移动-澳门02油管无广告-T
+trojan=b-cm.jiasu.one:35074, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=mo02.200913.xyz, fast-open=false, udp-relay=true, tag=B电信-澳门02油管无广告-T
+trojan=c-cm.jiasu.one:35073, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=mo02.200913.xyz, fast-open=false, udp-relay=true, tag=C联通-澳门02油管无广告-T
+shadowsocks=d-ali.200913.xyz:11060, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-澳门02油管无广告-S
+shadowsocks=beibei.200913.xyz:11060, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-澳门02油管无广告-S
+trojan=a-cm.jiasu.one:48684, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk03.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-香港03-T
+trojan=b-cm.jiasu.one:48685, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk03.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-香港03-T
+trojan=c-cm.jiasu.one:48684, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk03.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-香港03-T
+shadowsocks=d-ali.200913.xyz:11068, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-香港03-S
+shadowsocks=beibei.200913.xyz:11068, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-香港03-S
+trojan=a-cm.jiasu.one:56262, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk06.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-香港06-T
+trojan=b-cm.jiasu.one:56263, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk06.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-香港06-T
+trojan=c-cm.jiasu.one:56262, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=hk06.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-香港06-T
+shadowsocks=d-ali.200913.xyz:11075, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-香港06-S
+shadowsocks=beibei.200913.xyz:11075, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-香港06-S
+trojan=a-cm.jiasu.one:51479, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=de01.200913.xyz, fast-open=false, udp-relay=true, tag=A移动-德国01-T
+trojan=b-cm.jiasu.one:51480, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=de01.200913.xyz, fast-open=false, udp-relay=true, tag=B电信-德国01-T
+trojan=c-cm.jiasu.one:51479, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=de01.200913.xyz, fast-open=false, udp-relay=true, tag=C联通-德国01-T
+shadowsocks=d-ali.200913.xyz:11073, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-德国01-S
+shadowsocks=beibei.200913.xyz:11073, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-德国01-S
+trojan=a-cm.jiasu.one:16979, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=bg01.200913.xyz, fast-open=false, udp-relay=true, tag=A移动-保加利亚01-T
+trojan=b-cm.jiasu.one:16980, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=bg01.200913.xyz, fast-open=false, udp-relay=true, tag=B电信-保加利亚01-T
+trojan=c-cm.jiasu.one:16979, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=bg01.200913.xyz, fast-open=false, udp-relay=true, tag=C联通-保加利亚01-T
+shadowsocks=d-ali.200913.xyz:11074, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-保加利亚01-S
+shadowsocks=beibei.200913.xyz:11074, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-保加利亚01-S
+trojan=a-cm.jiasu.one:20305, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=tr02.jiasu.one, fast-open=false, udp-relay=true, tag=A移动-土耳其02-T
+trojan=b-cm.jiasu.one:20306, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=tr02.jiasu.one, fast-open=false, udp-relay=true, tag=B电信-土耳其02-T
+trojan=c-cm.jiasu.one:20305, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, over-tls=true, tls-verification=false, tls-host=tr02.jiasu.one, fast-open=false, udp-relay=true, tag=C联通-土耳其02-T
+shadowsocks=d-ali.200913.xyz:11070, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=D云线-土耳其02-S
+shadowsocks=beibei.200913.xyz:11070, method=aes-256-gcm, password=40b1a80f-f347-4e36-8987-425c5a1f4a39, fast-open=false, udp-relay=true, tag=备用-土耳其02-S
