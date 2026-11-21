@@ -1,0 +1,1 @@
+trojan=x-jp.pokipoky.com:443, password=ifunny1103, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=1533ms-JP-Bw⁠g
